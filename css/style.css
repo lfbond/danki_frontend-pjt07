@@ -1,0 +1,67 @@
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+.sect1 {
+  position: relative;
+  min-height: 700px;
+}
+
+.form-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  padding: 15px 2%;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  max-height: 700px;
+}
+
+.custom-title {
+  position: relative;
+}
+
+.custom-title h2 {
+  text-transform: uppercase;
+  position: relative;
+  font-size: 25px;
+  background-color: white;
+  display: inline-block;
+  color: #4918bd;
+  z-index: 2;
+  font-weight: inherit;
+  padding-right: 8px;
+}
+
+.custom-title > div {
+  width: 100%;
+  position: absolute;
+  height: 3px;
+  z-index: 1;
+  background-color: #777;
+  left: 0;
+  top: 55px;
+}
+
+.style-link {
+  border-radius: 20px;
+  line-height: 30px;
+  text-align: center;
+  padding-left: 10px;
+  background-color: #3b39ac;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  width: 110px;
+  cursor: pointer;
+}
+
+.h200 {
+  height: 200px;
+}
+
+
